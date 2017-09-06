@@ -1,0 +1,10 @@
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\MailApp.csprojResolveAssemblyReference.cache
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\MailApp.Form1.resources
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\MailApp.Properties.Resources.resources
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\MailApp.csproj.GenerateResource.Cache
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\MailApp.csproj.CoreCompileInputs.cache
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\bin\Debug\Spam mail.exe.config
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\bin\Debug\Spam mail.exe
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\bin\Debug\Spam mail.pdb
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\Spam mail.exe
+C:\Users\User2\Documents\Visual Studio 2017\Projects\C# Projects\Прочее\MailApp\MailApp\obj\Debug\Spam mail.pdb
