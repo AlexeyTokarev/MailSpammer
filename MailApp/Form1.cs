@@ -17,6 +17,7 @@ namespace MailApp
         private bool _isHtmlCode;
         private string _mailText;
         private bool _success;
+        private int _port = 587;
 
         public Form1()
         {
@@ -49,6 +50,15 @@ namespace MailApp
             _subject = textBox4.Text;
             _mailFromName = textBox5.Text;
             _mailText = textBox7.Text;
+            if (comboBox1 != null && comboBox1.SelectedItem.ToString() == "587")
+            {
+                _port = 587;
+            }
+            else
+            {
+                _port = 25;
+            }
+
 
             if (String.IsNullOrWhiteSpace(_mailFromAddress) || String.IsNullOrWhiteSpace(_mailFromPassword) ||
                 String.IsNullOrWhiteSpace(_mailToAddress) || String.IsNullOrWhiteSpace(_subject) ||
@@ -83,7 +93,7 @@ namespace MailApp
                 int i;
                 for (i = 0; i < _countOfMessages; i++)
                 {
-                    SmtpClient smtp = new SmtpClient("smtp.mail.ru", 587);
+                    SmtpClient smtp = new SmtpClient("smtp.mail.ru", _port);
 
                     smtp.Credentials = new NetworkCredential(_mailFromAddress, _mailFromPassword);
                     smtp.EnableSsl = true;
@@ -129,5 +139,22 @@ namespace MailApp
         private void label1_Click(object sender, EventArgs e) { }
         private void label5_Click(object sender, EventArgs e) { }
         private void label8_Click(object sender, EventArgs e) { }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1 != null && comboBox1.SelectedItem.ToString() == "587")
+            {
+                _port = 587;
+            }
+            else
+            {
+                _port = 25;
+            }
+        }
     }
 }
